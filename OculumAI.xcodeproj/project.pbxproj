@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0A71522BA34114003A51CD /* OculumAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A71512BA34114003A51CD /* OculumAIApp.swift */; };
+		EE0A71542BA34114003A51CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A71532BA34114003A51CD /* ContentView.swift */; };
+		EE0A71562BA34114003A51CD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A71552BA34114003A51CD /* Item.swift */; };
+		EE0A71582BA34117003A51CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0A71572BA34117003A51CD /* Assets.xcassets */; };
+		EE0A715B2BA34117003A51CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0A715A2BA34117003A51CD /* Preview Assets.xcassets */; };
+		EE0A71652BA34117003A51CD /* OculumAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A71642BA34117003A51CD /* OculumAITests.swift */; };
+		EE0A716F2BA34117003A51CD /* OculumAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A716E2BA34117003A51CD /* OculumAIUITests.swift */; };
+		EE0A71712BA34117003A51CD /* OculumAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A71702BA34117003A51CD /* OculumAIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE0A71612BA34117003A51CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE0A71462BA34114003A51CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0A714D2BA34114003A51CD;
+			remoteInfo = OculumAI;
+		};
+		EE0A716B2BA34117003A51CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE0A71462BA34114003A51CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0A714D2BA34114003A51CD;
+			remoteInfo = OculumAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE0A714E2BA34114003A51CD /* OculumAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OculumAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0A71512BA34114003A51CD /* OculumAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OculumAIApp.swift; sourceTree = "<group>"; };
+		EE0A71532BA34114003A51CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE0A71552BA34114003A51CD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EE0A71572BA34117003A51CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0A715A2BA34117003A51CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE0A71602BA34117003A51CD /* OculumAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OculumAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0A71642BA34117003A51CD /* OculumAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OculumAITests.swift; sourceTree = "<group>"; };
+		EE0A716A2BA34117003A51CD /* OculumAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OculumAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0A716E2BA34117003A51CD /* OculumAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OculumAIUITests.swift; sourceTree = "<group>"; };
+		EE0A71702BA34117003A51CD /* OculumAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OculumAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE0A714B2BA34114003A51CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0A715D2BA34117003A51CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0A71672BA34117003A51CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0A71452BA34114003A51CD = {
+			isa = PBXGroup;
+			children = (
+				EE0A71502BA34114003A51CD /* OculumAI */,
+				EE0A71632BA34117003A51CD /* OculumAITests */,
+				EE0A716D2BA34117003A51CD /* OculumAIUITests */,
+				EE0A714F2BA34114003A51CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0A714F2BA34114003A51CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A714E2BA34114003A51CD /* OculumAI.app */,
+				EE0A71602BA34117003A51CD /* OculumAITests.xctest */,
+				EE0A716A2BA34117003A51CD /* OculumAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0A71502BA34114003A51CD /* OculumAI */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A71512BA34114003A51CD /* OculumAIApp.swift */,
+				EE0A71532BA34114003A51CD /* ContentView.swift */,
+				EE0A71552BA34114003A51CD /* Item.swift */,
+				EE0A71572BA34117003A51CD /* Assets.xcassets */,
+				EE0A71592BA34117003A51CD /* Preview Content */,
+			);
+			path = OculumAI;
+			sourceTree = "<group>";
+		};
+		EE0A71592BA34117003A51CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A715A2BA34117003A51CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE0A71632BA34117003A51CD /* OculumAITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A71642BA34117003A51CD /* OculumAITests.swift */,
+			);
+			path = OculumAITests;
+			sourceTree = "<group>";
+		};
+		EE0A716D2BA34117003A51CD /* OculumAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A716E2BA34117003A51CD /* OculumAIUITests.swift */,
+				EE0A71702BA34117003A51CD /* OculumAIUITestsLaunchTests.swift */,
+			);
+			path = OculumAIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE0A714D2BA34114003A51CD /* OculumAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0A71742BA34117003A51CD /* Build configuration list for PBXNativeTarget "OculumAI" */;
+			buildPhases = (
+				EE0A714A2BA34114003A51CD /* Sources */,
+				EE0A714B2BA34114003A51CD /* Frameworks */,
+				EE0A714C2BA34114003A51CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OculumAI;
+			productName = OculumAI;
+			productReference = EE0A714E2BA34114003A51CD /* OculumAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE0A715F2BA34117003A51CD /* OculumAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0A71772BA34117003A51CD /* Build configuration list for PBXNativeTarget "OculumAITests" */;
+			buildPhases = (
+				EE0A715C2BA34117003A51CD /* Sources */,
+				EE0A715D2BA34117003A51CD /* Frameworks */,
+				EE0A715E2BA34117003A51CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE0A71622BA34117003A51CD /* PBXTargetDependency */,
+			);
+			name = OculumAITests;
+			productName = OculumAITests;
+			productReference = EE0A71602BA34117003A51CD /* OculumAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE0A71692BA34117003A51CD /* OculumAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0A717A2BA34117003A51CD /* Build configuration list for PBXNativeTarget "OculumAIUITests" */;
+			buildPhases = (
+				EE0A71662BA34117003A51CD /* Sources */,
+				EE0A71672BA34117003A51CD /* Frameworks */,
+				EE0A71682BA34117003A51CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE0A716C2BA34117003A51CD /* PBXTargetDependency */,
+			);
+			name = OculumAIUITests;
+			productName = OculumAIUITests;
+			productReference = EE0A716A2BA34117003A51CD /* OculumAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0A71462BA34114003A51CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EE0A714D2BA34114003A51CD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EE0A715F2BA34117003A51CD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EE0A714D2BA34114003A51CD;
+					};
+					EE0A71692BA34117003A51CD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EE0A714D2BA34114003A51CD;
+					};
+				};
+			};
+			buildConfigurationList = EE0A71492BA34114003A51CD /* Build configuration list for PBXProject "OculumAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE0A71452BA34114003A51CD;
+			productRefGroup = EE0A714F2BA34114003A51CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE0A714D2BA34114003A51CD /* OculumAI */,
+				EE0A715F2BA34117003A51CD /* OculumAITests */,
+				EE0A71692BA34117003A51CD /* OculumAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0A714C2BA34114003A51CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0A715B2BA34117003A51CD /* Preview Assets.xcassets in Resources */,
+				EE0A71582BA34117003A51CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0A715E2BA34117003A51CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0A71682BA34117003A51CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE0A714A2BA34114003A51CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0A71542BA34114003A51CD /* ContentView.swift in Sources */,
+				EE0A71562BA34114003A51CD /* Item.swift in Sources */,
+				EE0A71522BA34114003A51CD /* OculumAIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0A715C2BA34117003A51CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0A71652BA34117003A51CD /* OculumAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0A71662BA34117003A51CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0A71712BA34117003A51CD /* OculumAIUITestsLaunchTests.swift in Sources */,
+				EE0A716F2BA34117003A51CD /* OculumAIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE0A71622BA34117003A51CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0A714D2BA34114003A51CD /* OculumAI */;
+			targetProxy = EE0A71612BA34117003A51CD /* PBXContainerItemProxy */;
+		};
+		EE0A716C2BA34117003A51CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0A714D2BA34114003A51CD /* OculumAI */;
+			targetProxy = EE0A716B2BA34117003A51CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE0A71722BA34117003A51CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE0A71732BA34117003A51CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0A71752BA34117003A51CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OculumAI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eden-Prairie-School.OculumAI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE0A71762BA34117003A51CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OculumAI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eden-Prairie-School.OculumAI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE0A71782BA34117003A51CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eden-Prairie-School.OculumAITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OculumAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OculumAI";
+			};
+			name = Debug;
+		};
+		EE0A71792BA34117003A51CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eden-Prairie-School.OculumAITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OculumAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OculumAI";
+			};
+			name = Release;
+		};
+		EE0A717B2BA34117003A51CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eden-Prairie-School.OculumAIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OculumAI;
+			};
+			name = Debug;
+		};
+		EE0A717C2BA34117003A51CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eden-Prairie-School.OculumAIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OculumAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE0A71492BA34114003A51CD /* Build configuration list for PBXProject "OculumAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0A71722BA34117003A51CD /* Debug */,
+				EE0A71732BA34117003A51CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0A71742BA34117003A51CD /* Build configuration list for PBXNativeTarget "OculumAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0A71752BA34117003A51CD /* Debug */,
+				EE0A71762BA34117003A51CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0A71772BA34117003A51CD /* Build configuration list for PBXNativeTarget "OculumAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0A71782BA34117003A51CD /* Debug */,
+				EE0A71792BA34117003A51CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0A717A2BA34117003A51CD /* Build configuration list for PBXNativeTarget "OculumAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0A717B2BA34117003A51CD /* Debug */,
+				EE0A717C2BA34117003A51CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0A71462BA34114003A51CD /* Project object */;
+}
