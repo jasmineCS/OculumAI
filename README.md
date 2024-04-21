@@ -11,7 +11,7 @@
 ## Demo
 Here is a working live demo : [COMING SOON!] 
 
-### App Images
+## CORE ML Model
 Currently, it works for 5 classes of images but more will be added!
 # ![OculumAI](https://github.com/jasmineCS/OculumAI/blob/main/OculumAI/accuracy.png)
 
