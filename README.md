@@ -8,17 +8,12 @@
 </tr>
 </table>
 
-
 ## Demo
 Here is a working live demo :  
-
-
-## Site
 
 ### App Images
 Currently, it works for 5 classes of images but more will be added!
 
-![]() 
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-swift.svg)](https://forthebadge.com)
 
