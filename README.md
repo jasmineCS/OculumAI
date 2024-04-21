@@ -1,4 +1,4 @@
-# ![OculumAI]([https://jasmineCS.github.io/OculumAI/OculumAI/pic.jpg](https://github.com/jasmineCS/OculumAI/blob/main/OculumAI/pic.jpg))
+# ![OculumAI](https://github.com/jasmineCS/OculumAI/blob/main/OculumAI/pic.jpg)
 # OCULUM AI
 <table>
 <tr>
