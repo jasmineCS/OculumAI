@@ -25,7 +25,7 @@ struct OculumAIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterPage()
         }
         .modelContainer(sharedModelContainer)
     }

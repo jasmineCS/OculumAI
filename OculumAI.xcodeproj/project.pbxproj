@@ -15,6 +15,14 @@
 		EE0A71652BA34117003A51CD /* OculumAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A71642BA34117003A51CD /* OculumAITests.swift */; };
 		EE0A716F2BA34117003A51CD /* OculumAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A716E2BA34117003A51CD /* OculumAIUITests.swift */; };
 		EE0A71712BA34117003A51CD /* OculumAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A71702BA34117003A51CD /* OculumAIUITestsLaunchTests.swift */; };
+		EE0A717E2BA34155003A51CD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0A717D2BA34154003A51CD /* Launch Screen.storyboard */; };
+		EE0A71802BA34631003A51CD /* StarterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A717F2BA34631003A51CD /* StarterPage.swift */; };
+		EE0A71852BB31F40003A51CD /* Koulen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE0A71842BB31F21003A51CD /* Koulen-Regular.ttf */; };
+		EE0A71872BB5AD4B003A51CD /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A71862BB5AD4B003A51CD /* ScanView.swift */; };
+		EE62D5012BCD6BB9008B7FEA /* OcularDiagnosis.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EE62D5002BCD6BB8008B7FEA /* OcularDiagnosis.mlmodel */; };
+		EE62D52F2BD4866C008B7FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62D52D2BD4866C008B7FEA /* ViewController.swift */; };
+		EE62D5302BD4866C008B7FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE62D52E2BD4866C008B7FEA /* Main.storyboard */; };
+		EE62D5322BD4AC64008B7FEA /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62D5312BD4AC64008B7FEA /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,15 @@
 		EE0A716A2BA34117003A51CD /* OculumAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OculumAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0A716E2BA34117003A51CD /* OculumAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OculumAIUITests.swift; sourceTree = "<group>"; };
 		EE0A71702BA34117003A51CD /* OculumAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OculumAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE0A717D2BA34154003A51CD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		EE0A717F2BA34631003A51CD /* StarterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterPage.swift; sourceTree = "<group>"; };
+		EE0A71832BB31401003A51CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE0A71842BB31F21003A51CD /* Koulen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Koulen-Regular.ttf"; sourceTree = "<group>"; };
+		EE0A71862BB5AD4B003A51CD /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		EE62D5002BCD6BB8008B7FEA /* OcularDiagnosis.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = OcularDiagnosis.mlmodel; sourceTree = "<group>"; };
+		EE62D52D2BD4866C008B7FEA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE62D52E2BD4866C008B7FEA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EE62D5312BD4AC64008B7FEA /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +93,7 @@
 		EE0A71452BA34114003A51CD = {
 			isa = PBXGroup;
 			children = (
+				EE62D52C2BD4861C008B7FEA /* StoryboardFiles */,
 				EE0A71502BA34114003A51CD /* OculumAI */,
 				EE0A71632BA34117003A51CD /* OculumAITests */,
 				EE0A716D2BA34117003A51CD /* OculumAIUITests */,
@@ -96,7 +114,13 @@
 		EE0A71502BA34114003A51CD /* OculumAI */ = {
 			isa = PBXGroup;
 			children = (
+				EE0A71832BB31401003A51CD /* Info.plist */,
+				EE0A71842BB31F21003A51CD /* Koulen-Regular.ttf */,
 				EE0A71512BA34114003A51CD /* OculumAIApp.swift */,
+				EE0A717F2BA34631003A51CD /* StarterPage.swift */,
+				EE0A71862BB5AD4B003A51CD /* ScanView.swift */,
+				EE62D5312BD4AC64008B7FEA /* ScannerView.swift */,
+				EE0A717D2BA34154003A51CD /* Launch Screen.storyboard */,
 				EE0A71532BA34114003A51CD /* ContentView.swift */,
 				EE0A71552BA34114003A51CD /* Item.swift */,
 				EE0A71572BA34117003A51CD /* Assets.xcassets */,
@@ -128,6 +152,16 @@
 				EE0A71702BA34117003A51CD /* OculumAIUITestsLaunchTests.swift */,
 			);
 			path = OculumAIUITests;
+			sourceTree = "<group>";
+		};
+		EE62D52C2BD4861C008B7FEA /* StoryboardFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EE62D5002BCD6BB8008B7FEA /* OcularDiagnosis.mlmodel */,
+				EE62D52E2BD4866C008B7FEA /* Main.storyboard */,
+				EE62D52D2BD4866C008B7FEA /* ViewController.swift */,
+			);
+			path = StoryboardFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +268,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0A717E2BA34155003A51CD /* Launch Screen.storyboard in Resources */,
+				EE62D5302BD4866C008B7FEA /* Main.storyboard in Resources */,
 				EE0A715B2BA34117003A51CD /* Preview Assets.xcassets in Resources */,
 				EE0A71582BA34117003A51CD /* Assets.xcassets in Resources */,
+				EE0A71852BB31F40003A51CD /* Koulen-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE62D5012BCD6BB9008B7FEA /* OcularDiagnosis.mlmodel in Sources */,
+				EE62D5322BD4AC64008B7FEA /* ScannerView.swift in Sources */,
 				EE0A71542BA34114003A51CD /* ContentView.swift in Sources */,
 				EE0A71562BA34114003A51CD /* Item.swift in Sources */,
+				EE0A71872BB5AD4B003A51CD /* ScanView.swift in Sources */,
+				EE62D52F2BD4866C008B7FEA /* ViewController.swift in Sources */,
+				EE0A71802BA34631003A51CD /* StarterPage.swift in Sources */,
 				EE0A71522BA34114003A51CD /* OculumAIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,8 +468,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OculumAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 38FSTW3JGF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OculumAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,8 +498,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OculumAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 38FSTW3JGF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OculumAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
