@@ -9,7 +9,7 @@
 </table>
 
 ## Demo
-Here is a working live demo :  
+Here is a working live demo : [COMING SOON!] 
 
 ### App Images
 Currently, it works for 5 classes of images but more will be added!
