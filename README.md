@@ -13,7 +13,7 @@ Here is a working live demo :
 
 ### App Images
 Currently, it works for 5 classes of images but more will be added!
-
+# ![OculumAI](https://github.com/jasmineCS/OculumAI/blob/main/OculumAI/accuracy.png)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-swift.svg)](https://forthebadge.com)
 
